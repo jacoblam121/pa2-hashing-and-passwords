@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
+#include <assert.h>
 
 uint8_t hex_to_byte(unsigned char h1, unsigned char h2) {
     uint8_t x = 0;
